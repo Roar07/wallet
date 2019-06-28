@@ -1,0 +1,21 @@
+body{
+    margin: 10px 300px;
+    border-radius: 6px;
+    background-color: rgb(191, 252, 201);
+    font-size: 30px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    color: #26dd91ee;
+    text-align: center;
+
+}
+#login{
+    background-color:rgb(213, 215, 216);
+    padding: 18px;
+    border-radius: 30px;
+    line-height: 40px;
+    
+}

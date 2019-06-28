@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+             <link href="./public/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+    <h1> WELCOME <%=result.userName%></h1>
+
+
+    <span id="balance">
+    Balance:<%= result.balance%>
+    </span>
+    <br>
+    <span>Add balance</span>
+    <form action="/main" method="post">
+    </<label for="amount">Amount:</label>
+    <input type="number" name="amount" min="10">
+    <input type="submit" value="Add">
+    </form>
+
+    <p id="expanseReport">Recents</p>
+    <p id="addExpanse"></p>
+    
+
+
+
+
+    <script src="./public/main.js" ></script>
+    </body>
+
+</html>
